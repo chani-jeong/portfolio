@@ -1,0 +1,11 @@
+/* 본인 추가 스타일 */
+
+/* 키보드로 이동할 때 현재 초점 위치를 눈에 띄게 표시 */
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+.nav-link:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
