@@ -27,7 +27,7 @@ markup:
 params:
   title: 정찬
   description: 전북대학교 국제학부·인공지능전공 정찬의 포트폴리오
-  favicon: /fav.png
+  favicon: /images/avatar.png
   useBootstrapCDN: false
   mathjax: false
   animate: true
