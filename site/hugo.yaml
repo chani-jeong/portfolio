@@ -1,5 +1,5 @@
 # 정찬 포트폴리오 사이트 설정 (hugo-profile 테마 기반)
-baseURL: https://hugo-profile.netlify.app
+baseURL: https://chani-jeong.github.io/portfolio/
 languageCode: ko-kr
 title: 정찬 | 포트폴리오
 defaultContentLanguage: ko
