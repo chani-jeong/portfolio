@@ -15,3 +15,10 @@ button:focus-visible,
   overflow-wrap: anywhere;
   word-break: keep-all;
 }
+
+/* 좁은 화면에서 표의 항목 이름(첫 열)이 글자 단위로 끊기지 않게 함 */
+.page-content table th:first-child,
+.page-content table td:first-child {
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
