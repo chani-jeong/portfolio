@@ -267,7 +267,7 @@ params:
   listPages:
     disableFeaturedImage: false
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
       enable: true
       content: 분 소요
