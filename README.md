@@ -53,3 +53,15 @@ git push
 1. 저장소 **Actions** 탭에서 방금 push한 커밋의 `Deploy Hugo to GitHub Pages` 실행이 자동으로 시작되는지 확인
 2. `build`, `deploy`가 모두 초록색 체크가 될 때까지 대기 (약 1~2분)
 3. https://chani-jeong.github.io/portfolio/ 를 강력 새로고침(Cmd+Shift+R)해서 변경 반영 확인
+
+## 출처와 이용 조건
+
+| 자료 | 구분 | 출처 | 이용 조건 |
+|---|---|---|---|
+| hugo-profile 테마 (`site/themes/template/`) | 외부 | https://github.com/gurusabarish/hugo-profile | MIT License (`LICENSE` 유지) |
+| Bootstrap, Font Awesome (테마 포함) | 외부 | 테마 동봉 파일 | 각 라이선스 고지 유지 |
+| 배포 준비 스크립트 (`prepare_github_pages.py`, `.github/`) | 외부 | 초급프로젝트 수업 제공 | 수업 자료 |
+| 아바타 `site/static/images/avatar.png` | 외부(본인 계정) | GitHub 프로필 기본 아바타 | 본인 계정 이미지 |
+| Odigo 캡처 `site/static/images/odigo/` | 직접 제작 | 본인이 직접 촬영한 서비스 화면 | — |
+| 소개·활동 글 | 직접 작성 + AI 보조 | 내용은 본인, 문장 정리는 AI(Claude) 도움 | — |
+| 템플릿 수정·CSS (`site/layouts/`, `site/static/css/custom.css`) | AI 보조 | AI(Claude) 제안을 검토해 반영 | 테마 MIT License 준수 |
