@@ -40,7 +40,7 @@ params:
   navbar:
     align: ms-auto
     brandName: 정찬
-    disableSearch: false
+    disableSearch: true
     stickyNavBar:
       enable: true
       showOnScrollUp: true
