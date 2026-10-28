@@ -30,3 +30,14 @@ PATH="$PWD/.pages-tools/hugo:$PATH" python3 .github/pages_build.py --build
 # 3) 개발 서버로 미리보기 → 터미널에 표시되는 주소 열기, 종료는 Ctrl+C
 cd site && ../.pages-tools/hugo/hugo server --config hugo.yaml,pages.json --theme template --themesDir themes
 ```
+
+## 수정할 파일 위치
+
+| 바꾸고 싶은 것 | 파일 |
+|---|---|
+| 이름·소개·활동 요약·학력·메뉴 | `site/hugo.yaml` |
+| 활동 상세 페이지 | `site/content/projects/*.md` |
+| 이미지 | `site/static/images/` |
+| 추가 스타일(초점 표시, 줄바꿈) | `site/static/css/custom.css` |
+| 테마 화면 수정(카드, 첫 화면) | `site/layouts/` (테마 원본 `site/themes/template/` 위에 덮어씀) |
+| 자동 배포 설정 | `.github/workflows/hugo-pages.yml` |
