@@ -9,3 +9,9 @@ button:focus-visible,
   outline-offset: 3px;
   border-radius: 4px;
 }
+
+/* 긴 URL·영단어가 좁은 화면에서 가로로 넘치지 않게 줄바꿈 */
+#about, #experience, #education, #projects, .page-content {
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
