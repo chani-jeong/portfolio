@@ -103,76 +103,21 @@ params:
       - Hugo
   experience:
     enable: true
+    title: 활동
     items:
-    - company: Facebook
-      companyUrl: https://example.com
+    - company: Odigo · KF 아카데미 팀 프로젝트
+      companyUrl: https://odigoguide.com
       jobs:
-      - name: Senior Software Developer
-        date: Jan 2023 - present
-        content: I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-        info:
-          content: Working as a senior software developer
-        featuredItems:
-          fontAwesomeIcons:
-          - icon: fa-brands fa-react
-            url: https://react.dev/
-            tooltip: Example tooltip content
-          - icon: fab fa-x-twitter
-            url: https://example.com
-          customIcons:
-          - icon: /fav.png
-            url: https://example.com
-            tooltip: Example tooltip content
-      - name: Software Developer
-        date: Jan 2022 - Dec 2023
-        content: I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city.
-    - company: Amazon
-      companyUrl: https://example.com
-      jobs:
-      - name: Software Developer
-        date: Sep 2020 - Dec 2021
-        info:
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+      - name: 개발 담당 (7명 팀의 유일한 개발자)
+        date: 2026.08 – 2026.09 · 완료
+        content: |-
+          외국인 관광객을 위한 서울 팝업스토어 안내 웹앱 **Odigo**의 프론트엔드 전체와 배포를 맡았습니다.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-    - company: Apple
-      companyUrl: https://example.com
-      jobs:
-      - name: Junior Software Developer
-        date: Jan 2020 - Aug 2020
-        featuredItems:
-          fontAwesomeIcons:
-          - icon: fa-brands fa-react
-            url: https://react.dev/
-          - icon: fab fa-x-twitter
-            url: https://example.com
-          customIcons:
-          - icon: /fav.png
-            url: https://example.com
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - 기획팀 아이디어(스와이프 발견, 국적별 큐레이션, 배리어프리 필터)를 작동하는 웹앱으로 구현
+          - 팝업스토어 200개 정보 수집·검증, 종료된 팝업 자동 제외
+          - 7개 언어 다국어 처리, 관광객 25명 테스트에서 방문 의향 88%
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-    - company: Netflix
-      companyUrl: https://example.com
-      jobs:
-      - name: UI/UX Designer
-        date: June 2017 - Nov 2019
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-    - company: Google
-      companyUrl: https://example.com
-      jobs:
-      - name: Product Designer
-        date: Feb 2016 - Mar 2017
-        content: I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          서비스: [odigoguide.com](https://odigoguide.com)
   education:
     enable: true
     title: 학력
