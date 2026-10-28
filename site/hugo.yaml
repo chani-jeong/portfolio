@@ -270,18 +270,18 @@ params:
     socialShare: true
     readTime:
       enable: true
-      content: min read
+      content: 분 소요
     scrollprogress:
       enable: true
     tags:
       openInNewTab: true
   terms:
-    read: Read
-    toc: Table Of Contents
+    read: 읽기
+    toc: 목차
     copyright: All rights reserved
-    emailText: Check out this site
+    emailText: 이 사이트를 확인해 보세요
   datesFormat:
-    article: Jan 2, 2006
-    articleList: Jan 2, 2006
-    articleRecent: Jan 2, 2006
+    article: 2006.01.02
+    articleList: 2006.01.02
+    articleRecent: 2006.01.02
   copyright: 정찬.
