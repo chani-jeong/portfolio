@@ -36,3 +36,6 @@ exampleSite/themes/
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# macOS Finder 설정 파일
+.DS_Store
