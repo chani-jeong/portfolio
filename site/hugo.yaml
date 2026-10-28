@@ -62,7 +62,7 @@ params:
     bottomImage:
       enable: true
     button:
-      enable: true
+      enable: false
       name: Resume
       url: '#'
       download: true
