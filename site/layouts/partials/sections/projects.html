@@ -27,7 +27,7 @@
                     <div class="card-footer py-3">
                         {{ range .links }}
                         <span class="m-1 mx-2">
-                            <a href="{{ .url }}" target="_blank">
+                            <a href="{{ .url }}" target="_blank" aria-label="{{ .name | default "외부 링크" }}">
                                 <i class="{{ .icon }}"></i>
                             </a>
                         </span>
@@ -67,7 +67,7 @@
                     <div class="card-footer py-3">
                         {{ range .Params.links }}
                         <span class="m-1 mx-2">
-                            <a href="{{ .url }}">
+                            <a href="{{ .url }}" aria-label="{{ .name | default "외부 링크" }}">
                                 <i class="{{ .icon }}"></i>
                             </a>
                         </span>
