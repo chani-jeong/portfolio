@@ -62,10 +62,10 @@ params:
     bottomImage:
       enable: true
     button:
-      enable: false
-      name: Resume
-      url: '#'
-      download: true
+      enable: true
+      name: 대표 활동 보기
+      url: /projects/odigo/
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
