@@ -72,6 +72,7 @@ params:
       - icon: fab fa-github
         url: https://github.com/chani-jeong
     roundImage: true
+    imageAlt: 정찬의 GitHub 아바타 이미지
   about:
     enable: true
     title: 소개
