@@ -41,3 +41,15 @@ cd site && ../.pages-tools/hugo/hugo server --config hugo.yaml,pages.json --them
 | 추가 스타일(초점 표시, 줄바꿈) | `site/static/css/custom.css` |
 | 테마 화면 수정(카드, 첫 화면) | `site/layouts/` (테마 원본 `site/themes/template/` 위에 덮어씀) |
 | 자동 배포 설정 | `.github/workflows/hugo-pages.yml` |
+
+## 수정 후 재배포 확인
+
+```bash
+git add <수정한 파일>
+git commit -m "변경 내용 설명"
+git push
+```
+
+1. 저장소 **Actions** 탭에서 방금 push한 커밋의 `Deploy Hugo to GitHub Pages` 실행이 자동으로 시작되는지 확인
+2. `build`, `deploy`가 모두 초록색 체크가 될 때까지 대기 (약 1~2분)
+3. https://chani-jeong.github.io/portfolio/ 를 강력 새로고침(Cmd+Shift+R)해서 변경 반영 확인
