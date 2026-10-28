@@ -164,3 +164,10 @@ params:
     articleList: 2006.01.02
     articleRecent: 2006.01.02
   copyright: 정찬.
+Menus:
+  main:
+  - identifier: activity
+    name: 활동 기록
+    title: 활동 기록 목록
+    url: /projects/
+    weight: 1
