@@ -87,14 +87,14 @@ params:
       **다음 행동** — SQLD 스터디에 참여해 기출 문제와 이론을 정리하고, 시험 전까지 기출 문제를 반복해서 풉니다.
     skills:
       enable: true
-      title: 'Here are a few technologies I''ve been working with recently:'
+      title: 최근 사용해 본 기술과 도구입니다.
       items:
-      - HTML
-      - CSS
-      - JavaScript
-      - React
-      - Node
-      - Express
+      - HTML · CSS · JavaScript
+      - React (Vite)
+      - Firebase
+      - Git · GitHub
+      - GitHub Actions
+      - Hugo
   experience:
     enable: true
     items:
