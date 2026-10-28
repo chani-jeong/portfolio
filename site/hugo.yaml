@@ -54,10 +54,10 @@ params:
       disableContact: true
   hero:
     enable: true
-    intro: Hi, my name is
-    title: Isabella.
-    subtitle: I build things for the web
-    content: A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly.
+    intro: 안녕하세요, 저는
+    title: 정찬입니다.
+    subtitle: 기획과 기술을 잇는 웹 개발자를 목표로 합니다
+    content: 전북대학교에서 국제학과 인공지능을 함께 공부하고 있습니다. 사용자의 불편을 현장에서 확인하고, 그 내용을 실제로 작동하는 웹 서비스로 만드는 일을 좋아합니다.
     image: /images/hero.svg
     bottomImage:
       enable: true
