@@ -1,7 +1,7 @@
 # 정찬 포트폴리오 사이트 설정 (hugo-profile 테마 기반)
 baseURL: https://hugo-profile.netlify.app
 languageCode: ko-kr
-title: Hugo Profile
+title: 정찬 | 포트폴리오
 defaultContentLanguage: ko
 defaultContentLanguageInSubdir: false
 languages:
@@ -25,8 +25,8 @@ markup:
     renderer:
       unsafe: true
 params:
-  title: Hugo Profile
-  description: Text about my cool site
+  title: 정찬
+  description: 전북대학교 국제학부·인공지능전공 정찬의 포트폴리오
   favicon: /fav.png
   useBootstrapCDN: false
   mathjax: false
@@ -39,7 +39,7 @@ params:
     textAlign: left
   navbar:
     align: ms-auto
-    brandName: Hugo Profile
+    brandName: 정찬
     disableSearch: false
     stickyNavBar:
       enable: true
