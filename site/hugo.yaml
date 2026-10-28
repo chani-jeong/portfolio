@@ -117,7 +117,7 @@ params:
           - 팝업스토어 200개 정보 수집·검증, 종료된 팝업 자동 제외
           - 7개 언어 다국어 처리, 관광객 25명 테스트에서 방문 의향 88%
 
-          서비스: [odigoguide.com](https://odigoguide.com)
+          서비스: [odigoguide.com](https://odigoguide.com) · [상세 기록 보기](/projects/odigo/)
   education:
     enable: true
     title: 학력
