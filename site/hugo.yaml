@@ -85,6 +85,12 @@ params:
       **학습 목표** — 2026년 11월 SQLD(SQL 개발자) 자격증 취득.
 
       **다음 행동** — SQLD 스터디에 참여해 기출 문제와 이론을 정리하고, 시험 전까지 기출 문제를 반복해서 풉니다.
+
+      **기술 적용 사례**
+
+      **Git · GitHub, GitHub Actions** — 초급프로젝트 수업 실습에서 정적 사이트, Vue 영화 앱, React 할 일 앱을 GitHub Pages로 배포했고, 이 포트폴리오도 main 브랜치에 push하면 GitHub Actions로 자동 배포되도록 구성했습니다.
+
+      **Firebase** — Odigo에서 데이터 저장에 사용했고, 수업 실습에서는 Firebase Authentication과 Firestore로 로그인한 사용자만 자기 할 일을 읽고 쓰는 앱을 만들었습니다.
     skills:
       enable: true
       title: 최근 사용해 본 기술과 도구입니다.
