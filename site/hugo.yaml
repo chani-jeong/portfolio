@@ -24,13 +24,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-Menus:
-  main:
-  - identifier: gallery
-    name: Gallery
-    title: Gallery
-    url: /gallery
-    weight: 2
 params:
   title: Hugo Profile
   description: Text about my cool site
