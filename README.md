@@ -14,3 +14,19 @@
 | Python | 3.9 이상 | 빌드 보조 스크립트 `.github/pages_build.py` 실행 |
 | Git | 최신 | 버전 관리, push |
 | GitHub Actions / Pages | — | main push 시 자동 빌드·배포 |
+
+## 내 컴퓨터에서 빌드하기 (macOS)
+
+저장소 최상위 폴더에서 실행합니다. Hugo는 `.pages-tools/`에 받아 쓰며 이 폴더는 Git에서 제외됩니다.
+
+```bash
+# 1) Hugo 0.143.0 extended 내려받기 (처음 한 번)
+mkdir -p .pages-tools/hugo
+curl -fL https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_extended_0.143.0_darwin-universal.tar.gz | tar -xz -C .pages-tools/hugo
+
+# 2) 배포와 같은 방식으로 빌드 → public/ 폴더 생성
+PATH="$PWD/.pages-tools/hugo:$PATH" python3 .github/pages_build.py --build
+
+# 3) 개발 서버로 미리보기 → 터미널에 표시되는 주소 열기, 종료는 Ctrl+C
+cd site && ../.pages-tools/hugo/hugo server --config hugo.yaml,pages.json --theme template --themesDir themes
+```
