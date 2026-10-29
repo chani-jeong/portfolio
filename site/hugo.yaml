@@ -1,7 +1,7 @@
-# 정찬 포트폴리오 사이트 설정 (hugo-profile 테마 기반)
+# 정찬이 포트폴리오 사이트 설정 (hugo-profile 테마 기반)
 baseURL: https://chani-jeong.github.io/portfolio/
 languageCode: ko-kr
-title: 정찬 | 포트폴리오
+title: 정찬이 | 포트폴리오
 defaultContentLanguage: ko
 defaultContentLanguageInSubdir: false
 languages:
@@ -25,8 +25,8 @@ markup:
     renderer:
       unsafe: true
 params:
-  title: 정찬
-  description: 전북대학교 국제학부·인공지능전공 정찬의 포트폴리오
+  title: 정찬이
+  description: 전북대학교 국제학부·인공지능전공 정찬이의 포트폴리오
   favicon: /images/avatar.png
   useBootstrapCDN: false
   mathjax: false
@@ -39,7 +39,7 @@ params:
     textAlign: left
   navbar:
     align: ms-auto
-    brandName: 정찬
+    brandName: 정찬이
     disableSearch: true
     stickyNavBar:
       enable: true
@@ -55,7 +55,7 @@ params:
   hero:
     enable: true
     intro: 안녕하세요, 저는
-    title: 정찬입니다.
+    title: 정찬이입니다.
     subtitle: 기획과 기술을 잇는 웹 개발자를 목표로 합니다
     content: 전북대학교에서 국제학과 인공지능을 함께 공부하고 있습니다. 사용자의 불편을 현장에서 확인하고, 그 내용을 실제로 작동하는 웹 서비스로 만드는 일을 좋아합니다.
     image: /images/avatar.png
@@ -71,9 +71,9 @@ params:
       fontAwesomeIcons:
       - icon: fab fa-github
         url: https://github.com/chani-jeong
-        name: 정찬 GitHub 프로필
+        name: 정찬이 GitHub 프로필
     roundImage: true
-    imageAlt: 정찬의 GitHub 아바타 이미지
+    imageAlt: 정찬이의 GitHub 아바타 이미지
   about:
     enable: true
     title: 소개
@@ -165,7 +165,7 @@ params:
     article: 2006.01.02
     articleList: 2006.01.02
     articleRecent: 2006.01.02
-  copyright: 정찬.
+  copyright: 정찬이.
 Menus:
   main:
   - identifier: activity
